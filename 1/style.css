@@ -1,0 +1,27 @@
+body > div {
+    border: solid 1px black;
+    text-align: center;
+    width: 700px;
+    margin:0 auto;
+    border-radius: 40px 40px;
+    padding-bottom: 25px;
+}
+input{
+    background-color: rgb(12, 207, 241);
+}
+#lista > div{
+    
+    display:flex;
+    width:75px;
+    margin-left: 583px;
+}
+#lista li{
+    list-style-type:decimal;
+   
+    flex-grow: 1;
+    margin-right: 10px;
+}
+#lista >div>button{
+    flex-grow: 1;
+    
+}
