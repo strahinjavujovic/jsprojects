@@ -1,0 +1,120 @@
+body{
+    font-family: "Arial", Times, serif;
+}
+h1{
+    text-align: center;
+    
+}
+h2{
+    text-align: center;
+    color: green;
+}
+#ime{
+    
+    flex-grow: 3;
+    margin-left: 10px;
+}
+#unosimena{
+    display: flex;
+    width: 800px;
+    margin-left: 480px;
+    height:30px;
+    
+}
+#unosimena > p{
+    flex-grow: 1;
+    font-size: 15px;
+    margin: 0 0;
+   padding-top: 5px;
+   text-align: right;
+   font-weight: bold;
+}
+#second{
+    display:flex;
+    margin-left: 535px;
+    width: 800px;
+   
+}
+#second > div{
+    margin-top:10px;
+    flex-grow: 1;
+    height:30px;
+
+}
+#unosdatuma{
+    display: flex;
+}
+#unosdatuma p{
+    flex-grow: 1;
+    text-align: right;
+    margin: 0 0;
+    padding-top: 5px;
+    font-weight: bold;
+}
+#unosdatuma input{
+    margin-left: 10px;
+    flex-grow: 1;
+}
+#unoscena{
+    display: flex;
+}
+#unoscena p{
+    flex-grow: 1;
+    margin: 0 0;
+    padding-top: 5px;
+    text-align: right;
+    width:15px;
+    font-weight: bold;
+
+}
+#unoscena input{
+    flex-grow: 1;
+    margin-left: 10px;
+}
+#tabela{
+    width:700px;
+    border-collapse: collapse;
+    border: solid 1px grey;
+    border-radius: 5px 5px;
+    margin-left:630px;
+    margin-top:10px;
+}
+#tabela tr{
+    display: flex;
+}
+#tabela tr th {
+    
+    padding:0 0;
+    text-align: left;
+    height:  30px;
+    flex-grow: 1;
+    width: 183px;
+    padding-top: 10px;
+    padding-left: 5px;
+}
+#tabela tbody{
+    width: 740px;
+}
+#tabela tr td{
+    border-collapse: collapse;
+    border: solid 1px grey;
+    height:  30px;
+    width:186px;
+    background-color: rgba(240, 232, 232, 0.575);
+    
+}
+#prvi button{
+    background-color: green;
+    color:white;
+    margin-left: 900px;
+    margin-top:10px;
+    width: 170px;
+    font-size: 20px;
+    padding:5px 5px 5px 5px;
+    border:1px solid white;
+    border-radius: 5px 5px;
+}
+#prvi {
+    margin:0 auto;
+    
+}

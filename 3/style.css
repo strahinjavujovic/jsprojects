@@ -1,0 +1,95 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+    color:rgba(17, 185, 17, 0.884);
+}
+#unos{
+    display: flex;
+    width:1200px;
+    margin-left: 350px;
+}
+#unos p{
+    flex-grow: 1;
+    text-align: right;
+}
+#unos input{
+    margin-left: 10px;
+    flex-grow: 7;
+    border: 1px solid grey;
+}
+#btn{
+    color:white;
+    background-color: rgba(17, 185, 17, 0.884);
+    width:100px;
+    height: 35px;
+    border-radius: 5px 5px;
+    border: solid 1px white;
+    margin-top: 15px;
+}
+#mrg{
+    margin:auto;
+    width: 150px;
+    height: 30px;
+    border: solid 1px green;
+}
+#unos span{
+    margin-left: 470px;
+}
+#notes{
+   display: flex;
+    width:900px;
+    max-width: 900px;
+    height:100px;
+    margin-top: 15px;
+    margin-left: 475px;
+}
+#notes div{
+    margin-right:10px ;
+    width:445px;
+    border:1px solid grey;
+    height: 120px;
+    
+    
+}
+#notes p{
+    margin:8px 8px;
+}
+#notes button{
+    color:white;
+    background-color: #1E90FF ;
+    border: 2px solid white;
+    border-radius: 5px 5px;
+    height: 40px;
+    width: 100px;
+    margin-left: 10px;
+}
+#sve #prikaz{
+    position: absolute;
+    
+    top:200px;
+    left:500px;
+    width:900px;
+    height: 150px;
+    word-break: break-word;
+    border-radius: 5px 5px;
+    padding-left: 15px;
+}
+#sve{
+    height: 1000px;
+}
+#prikaz button{
+    background-color: white;
+    border: none;
+    color:grey;
+    font-weight: bold;
+    margin-right:900px;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+}
+

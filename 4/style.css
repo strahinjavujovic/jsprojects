@@ -1,0 +1,22 @@
+h1{
+    text-align: center;
+}
+input{
+    width:1000px;
+    margin-left: 450px;
+    height: 30px;
+    border-radius: 5px 5px;
+    border: solid 1px grey;
+}
+button{
+    margin-left:920px;
+    margin-top: 15px;
+    width:100px;
+    height:30px;
+    color:white;
+    background-color:rgba(17, 185, 17, 0.884);
+    font-size: 20px;
+    font-weight: bolder;
+    border: 1px solid white;
+    border-radius: 5px 5px;
+}

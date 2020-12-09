@@ -1,0 +1,49 @@
+.prvi {
+    display: grid;
+    max-width: 320px;
+    height: 200px;
+ 
+    grid-template-areas:
+       'a b c'
+       'c a b';
+ 
+    grid-template-columns: 100px 100px 100px;
+    grid-template-rows: 100px 100px;
+ }
+ #a11 {
+    grid-area: a;
+    visibility: hidden;
+ }
+ #a22 {
+    grid-area: a;
+    visibility: hidden;
+ }
+ 
+ #b11 {
+    grid-area: b;
+    visibility: hidden;
+ }
+ #b22 {
+    grid-area: b;
+    visibility: hidden;
+ }
+ #c11 {
+    grid-area: c;
+    visibility: hidden;
+ }
+ #c22 {
+    grid-area: c;
+    visibility: hidden;
+ }
+ img {
+    width: 100px;
+    height: 100px;
+ }
+ 
+ .prvi div {
+    border: 1px solid black;
+ }
+ #tabela {
+    margin-top: 15px;
+ }
+ 
